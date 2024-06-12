@@ -2,8 +2,8 @@
 
 // API 설정
 const ejelAPI = {
-  ApiKey: "c96xKsdqBckOV8ePuKqgKyWc-u_65Qz_VnMq7Kx2A7E",
-  serverUrl: "http://api-dev.ejelai.com",
+  ApiKey: "",
+  serverUrl: "",
 };
 
 const ApiKey = ejelAPI.ApiKey;
@@ -308,7 +308,7 @@ async function speak(session_id, text) {
   const response = await fetchRequest("POST", "/streams/speakings", {
     session_id: session_id,
     text: text,
-    background_color: "#000000",
+    background_color: "#00FF00",
   });
 
   await handleFetchResponse(response);
