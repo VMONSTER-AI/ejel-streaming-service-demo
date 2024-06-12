@@ -19,7 +19,7 @@ $ node app.js
 
 ## 주의사항
 
-- Connect 이후, 1분간 API 요청이 진행되지 않으면 Connection 이 종료됩니다.
+- Connect 이후, 2분간 API 요청이 진행되지 않으면 Connection 이 종료됩니다.
 - 질문에 대한 답변은 Chat GPT 의 답변입니다.
 - 설정된 에이전트 언어에 따라 답변의 언어도 결정이 됩니다.
 - 배경은 원하는 색깔로 변경할 수 있습니다. hex 로 된 6자리 string을 입력해주세요
