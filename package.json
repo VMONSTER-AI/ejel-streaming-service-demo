@@ -1,0 +1,13 @@
+{
+  "name": "ejel-streaming-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "domin.kim@vmonster.io",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
